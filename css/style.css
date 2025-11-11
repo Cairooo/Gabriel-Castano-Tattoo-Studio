@@ -172,22 +172,22 @@ video::-webkit-media-controls-time-remaining-display {
 
 @media (max-width: 1023px) {
   .parte-de-cima {
-    top: 24%;
+    top: 22%;
   }
   .desenho {
     height: 7rem;
   }
   .parte-de-baixo {
-    top: 20%;
+    top: 18%;
     left: -3%;
   }
   .escrita {
-    height: 10rem;
+    height: 8rem;
   }
   .sofa-container {
     top: 25%;
   }
   .sofa {
-    height: 8rem;
+    height: 5rem;
   }
 }
