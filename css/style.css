@@ -17,8 +17,8 @@ body {
   height: 100%;
   width: 100%;
   background-image: url("../images/Caligraffiti-background.jpeg");
-  background-color: rgba(201, 181, 156, 0.6);
-  background-blend-mode: luminosity;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -171,7 +171,7 @@ video::-webkit-media-controls-time-remaining-display {
   color: white;
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 360px) and (max-width: 375px) {
   .parte-de-cima {
     top: 22%;
   }
@@ -192,37 +192,93 @@ video::-webkit-media-controls-time-remaining-display {
     height: 5rem;
   }
   .Anjo {
-    height: 500px;
+    height: 400px;
   }
 
   .Favela {
-    height: 500px;
+    height: 400px;
   }
 
   .Lobo {
-    height: 500px;
+    height: 400px;
   }
 
   .Santa {
-    height: 500px;
+    height: 400px;
   }
 
   .Lotus {
-    height: 500px;
+    height: 400px;
   }
 
   .Flores {
-    height: 500px;
+    height: 400px;
   }
   .Dragão {
-    height: 500px;
+    height: 400px;
   }
 
   .Samurai {
-    height: 500px;
+    height: 400px;
   }
 
   .Templo {
-    height: 500px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 1024px) {
+  .parte-de-cima {
+    top: 22%;
+  }
+  .desenho {
+    height: 7rem;
+  }
+  .parte-de-baixo {
+    top: 18%;
+    left: -3%;
+  }
+  .escrita {
+    height: 8rem;
+  }
+  .sofa-container {
+    top: 50%;
+  }
+  .sofa {
+    height: 5rem;
+  }
+  .Anjo {
+    height: 400px;
+  }
+
+  .Favela {
+    height: 400px;
+  }
+
+  .Lobo {
+    height: 400px;
+  }
+
+  .Santa {
+    height: 400px;
+  }
+
+  .Lotus {
+    height: 400px;
+  }
+
+  .Flores {
+    height: 400px;
+  }
+  .Dragão {
+    height: 400px;
+  }
+
+  .Samurai {
+    height: 400px;
+  }
+
+  .Templo {
+    height: 400px;
   }
 }
