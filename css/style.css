@@ -17,9 +17,10 @@ body {
   height: 100%;
   width: 100%;
   background-image: url("../images/Caligraffiti-background.jpeg");
+  background-color: rgba(201, 181, 156, 0.6);
+  background-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 1;
   z-index: -1;
 }
 
@@ -189,5 +190,39 @@ video::-webkit-media-controls-time-remaining-display {
   }
   .sofa {
     height: 5rem;
+  }
+  .Anjo {
+    height: 500px;
+  }
+
+  .Favela {
+    height: 500px;
+  }
+
+  .Lobo {
+    height: 500px;
+  }
+
+  .Santa {
+    height: 500px;
+  }
+
+  .Lotus {
+    height: 500px;
+  }
+
+  .Flores {
+    height: 500px;
+  }
+  .Dragão {
+    height: 500px;
+  }
+
+  .Samurai {
+    height: 500px;
+  }
+
+  .Templo {
+    height: 500px;
   }
 }
