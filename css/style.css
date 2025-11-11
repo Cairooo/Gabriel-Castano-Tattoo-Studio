@@ -1,0 +1,193 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Pirata One", "sans-serif";
+}
+
+.cabeçalho {
+  height: 80vh;
+  position: relative;
+}
+
+.cabeçalho::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/Caligraffiti-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+}
+
+.parte-de-cima {
+  display: flex;
+  position: relative;
+  top: 10%;
+  justify-content: center;
+}
+
+.desenho {
+  height: 12rem;
+}
+
+.parte-de-baixo {
+  display: flex;
+  position: relative;
+  top: 5%;
+  left: -0.5%;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.escrita {
+  height: 17rem;
+  margin-left: 1.2%;
+}
+
+.sofa-container {
+  display: flex;
+  position: relative;
+  top: 10%;
+  margin-left: 1%;
+  justify-content: center;
+}
+
+.sofa {
+  height: 200px;
+  overflow: hidden;
+}
+
+.processo-criativo {
+  background-color: black;
+}
+
+.processo-criativo h1 {
+  color: white !important;
+}
+
+.Descricao-processo {
+  font-size: 22px;
+}
+
+.Galeria {
+  font-size: 60px;
+}
+
+.Anjo {
+  height: 560px;
+  border-radius: 1%;
+}
+
+.Favela {
+  height: 560px;
+  border-radius: 1%;
+}
+
+.Lobo {
+  height: 560px;
+  border-radius: 1%;
+}
+
+.Santa {
+  height: 560px;
+  border-radius: 1%;
+}
+
+.Lotus {
+  height: 560px;
+  border-radius: 1%;
+}
+
+.Flores {
+  height: 560px;
+  border-radius: 1%;
+}
+
+video::-webkit-media-controls-play-button {
+  display: block !important;
+}
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+  display: none !important;
+}
+
+.Dragão {
+  height: 560px;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.Samurai {
+  height: 560px;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.Templo {
+  height: 560px;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+.depoimento {
+  font-size: 20px;
+}
+
+.instagram {
+  text-decoration: none;
+  color: inherit;
+}
+
+.localizacao {
+  background-color: black;
+}
+
+.localizacao h1 {
+  color: white !important;
+}
+
+.loc-legenda {
+  color: white !important;
+}
+
+.edge {
+  background-color: black;
+}
+
+.branca {
+  height: 100px;
+}
+
+.insta-link {
+  color: white;
+}
+
+@media (max-width: 1023px) {
+  .parte-de-cima {
+    top: 24%;
+  }
+  .desenho {
+    height: 7rem;
+  }
+  .parte-de-baixo {
+    top: 20%;
+    left: -3%;
+  }
+  .escrita {
+    height: 10rem;
+  }
+  .sofa-container {
+    top: 25%;
+  }
+  .sofa {
+    height: 8rem;
+  }
+}
