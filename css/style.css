@@ -176,14 +176,14 @@ video::-webkit-media-controls-time-remaining-display {
     top: 22%;
   }
   .desenho {
-    height: 4rem;
+    height: 6rem;
   }
   .parte-de-baixo {
     top: 18%;
     left: -3%;
   }
   .escrita {
-    height: 4rem;
+    height: 7rem;
   }
   .sofa-container {
     top: 45%;
@@ -248,37 +248,36 @@ video::-webkit-media-controls-time-remaining-display {
     height: 5rem;
   }
   .Anjo {
-    height: 350px;
+    height: 370px;
   }
 
   .Favela {
-    height: 350px;
+    height: 370px;
   }
 
   .Lobo {
-    height: 350px;
+    height: 370px;
   }
 
   .Santa {
-    height: 350px;
+    height: 370px;
   }
 
   .Lotus {
-    height: 350px;
+    height: 370px;
   }
 
   .Flores {
-    height: 350px;
+    height: 370px;
   }
   .Dragão {
-    height: 350px;
+    height: 370px;
   }
-
   .Samurai {
-    height: 350px;
+    height: 370px;
   }
 
   .Templo {
-    height: 350px;
+    height: 370px;
   }
 }
